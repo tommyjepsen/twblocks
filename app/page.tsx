@@ -41,10 +41,6 @@ export default function Home() {
       <Case1 />
       <Case2 />
       <hr />
-      <div className="w-full bg-muted text-center p-40">
-        Testimonials blocks
-      </div>
-      <hr />
       <Testimonials1 />
       <hr />
       <Feature1 />
