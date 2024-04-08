@@ -32,6 +32,25 @@ export default function Home() {
   return (
     <>
       <Header1 />
+      <div className="bg-secondary text-secondary-foreground mt-20 text-sm text-center px-10 py-4">
+        Find the repository for this project on{" "}
+        <a
+          href="https://github.com/tommyjepsen/twblocks"
+          target="_blank"
+          className="text-primary underline font-semibold"
+        >
+          Github/twblocks
+        </a>{" "}
+        - created by{" "}
+        <a
+          href="https://github.com/tommyjepsen"
+          target="_blank"
+          className="text-primary underline font-semibold"
+        >
+          @Tommy Jepsen
+        </a>{" "}
+        ✌️
+      </div>
       <ModeToggle />
       <Hero1 />
       <Hero2 />
