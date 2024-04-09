@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   description: "Free SaaS website blocks based on React with shadcn & Tailwind",
   keywords:
     "tailwindcss, react, shadcn, design, webdesign, website, saas templates, saas website templates",
+  authors: [{ name: "Tommy Jepsen", url: "https://tommyjepsen.com" }],
 };
 
 export default function RootLayout({
