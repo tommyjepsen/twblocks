@@ -51,7 +51,7 @@ export const Heroes = () => (
             <div className="flex flex-col gap-2">
               <div className="bg-muted rounded-md aspect-video p-8 lg:p-20">
                 <Image
-                  src="/Hero3.png"
+                  src="/hero3.png"
                   alt="Hero 3"
                   width={3600}
                   height={1972}
@@ -66,7 +66,7 @@ export const Heroes = () => (
             <div className="flex flex-col gap-2">
               <div className="bg-muted rounded-md aspect-video p-8 lg:p-20">
                 <Image
-                  src="/Hero4.png"
+                  src="/hero4.png"
                   alt="Hero 4"
                   width={3600}
                   height={1972}
