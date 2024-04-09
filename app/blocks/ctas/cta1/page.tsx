@@ -30,7 +30,7 @@ export const CTA1 = () => (
           <Badge>Get started</Badge>
         </div>
         <div className="flex flex-col gap-2">
-          <h3 className="text-5xl tracking-tighter max-w-xl font-regular">
+          <h3 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular">
             Try our platform today!
           </h3>
           <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl">

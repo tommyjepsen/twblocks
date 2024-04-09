@@ -15,7 +15,7 @@ export const FAQ2 = () => (
         <div className="flex text-center justify-center items-center gap-4 flex-col">
           <Badge variant="outline">FAQ</Badge>
           <div className="flex gap-2 flex-col">
-            <h4 className="text-5xl tracking-tighter max-w-xl text-center font-regular">
+            <h4 className="text-3xl md:text-5xl tracking-tighter max-w-xl text-center font-regular">
               This is the start of something new
             </h4>
             <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl text-center">

@@ -30,7 +30,7 @@ export const Feature3 = () => (
             <Badge>Platform</Badge>
           </div>
           <div className="flex gap-2 flex-col">
-            <h2 className="text-5xl tracking-tighter lg:max-w-xl font-regular text-left">
+            <h2 className="text-xl md:text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular text-left">
               This is the start of something new
             </h2>
             <p className="text-lg max-w-xl lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground text-left">

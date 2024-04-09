@@ -18,7 +18,7 @@ export const FAQ1 = () => (
               <Badge variant="outline">FAQ</Badge>
             </div>
             <div className="flex gap-2 flex-col">
-              <h4 className="text-5xl tracking-tighter max-w-xl text-left font-regular">
+              <h4 className="text-3xl md:text-5xl tracking-tighter max-w-xl text-left font-regular">
                 This is the start of something new
               </h4>
               <p className="text-lg max-w-xl lg:max-w-lg leading-relaxed tracking-tight text-muted-foreground  text-left">

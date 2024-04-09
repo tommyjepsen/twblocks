@@ -11,10 +11,10 @@ export const Hero = () => (
           <Badge variant="outline">We&apos;re live!</Badge>
         </div>
         <div className="flex gap-4 flex-col">
-          <h1 className="text-7xl max-w-2xl tracking-tighter text-center font-regular">
+          <h1 className="text-5xl md:text-7xl max-w-2xl tracking-tighter text-center font-regular">
             React SaaS website blocks to copy/paste
           </h1>
-          <p className="text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
+          <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
             Beautifully designed website blocks for your SaaS website. Easily
             customizable with shadcn-ui themes and works in dark- and light
             mode.
