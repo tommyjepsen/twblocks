@@ -1,94 +1,37 @@
-import { Hero3 } from "@/components/hero/hero3";
-import { Hero2 } from "@/components/hero/hero2";
-import { Hero1 } from "@/components/hero/hero1";
-import { Feature1 } from "@/components/feature/feature1";
-import { Feature2 } from "@/components/feature/feature2";
-import { Feature3 } from "@/components/feature/feature3";
-import { Feature4 } from "@/components/feature/feature4";
-import { Feature5 } from "@/components/feature/feature5";
-import { Pricing1 } from "@/components/pricing/pricing1";
-import { Pricing2 } from "@/components/pricing/pricing2";
-import { Stats1 } from "@/components/stats/stats1";
-import { Stats2 } from "@/components/stats/stats2";
-import { Header1 } from "@/components/header/header1";
-import { CTA1 } from "@/components/cta/cta1";
-import { Feature6 } from "@/components/feature/feature6";
-import { Feature7 } from "@/components/feature/feature7";
-import { CTA2 } from "@/components/cta/cta2";
-import { Hero4 } from "@/components/hero/hero4";
-import { Blog1 } from "@/components/blog/blog1";
-import { Blog2 } from "@/components/blog/blog2";
-import { Footer1 } from "@/components/footer/footer1";
-import { Feature8 } from "@/components/feature/feature8";
-import { Case1 } from "@/components/case/case1";
-import { Case2 } from "@/components/case/case2";
-import { Testimonials1 } from "@/components/testimonials/testimonials1";
-import { FAQ1 } from "@/components/faq/faq1";
-import { FAQ2 } from "@/components/faq/faq2";
-import { Contact1 } from "@/components/contact/contact1";
-import { ModeToggle } from "@/components/ui/mode-toggle";
+"use client";
+
+import { Heroes } from "@/components/blocks/heroes";
+import { Header } from "@/components/header";
+import { Hero } from "@/components/blocks/hero";
+import { Cases } from "@/components/blocks/cases";
+import { Testimonials } from "@/components/blocks/testimonials";
+import { Features } from "@/components/blocks/features";
+import { Pricings } from "@/components/blocks/pricings";
+import { Stats } from "@/components/blocks/stats";
+import { CTAs } from "@/components/blocks/ctas";
+import { Blogs } from "@/components/blocks/blogs";
+import { FAQs } from "@/components/blocks/faqs";
+import { Contacts } from "@/components/blocks/contacts";
+import { Footers } from "@/components/blocks/footers";
+import { Headers } from "@/components/blocks/headers";
 
 export default function Home() {
   return (
     <>
-      <Header1 />
-      <div className="bg-secondary text-secondary-foreground mt-20 text-sm text-center px-10 py-4">
-        Find the repository for this project on{" "}
-        <a
-          href="https://github.com/tommyjepsen/twblocks"
-          target="_blank"
-          className="text-primary underline font-semibold"
-        >
-          Github/twblocks
-        </a>{" "}
-        - created by{" "}
-        <a
-          href="https://github.com/tommyjepsen"
-          target="_blank"
-          className="text-primary underline font-semibold"
-        >
-          @Tommy Jepsen
-        </a>{" "}
-        ✌️
-      </div>
-      <ModeToggle />
-      <Hero1 />
-      <Hero2 />
-      <Hero3 />
-      <Hero4 />
-      <hr />
-      <Case1 />
-      <Case2 />
-      <hr />
-      <Testimonials1 />
-      <hr />
-      <Feature1 />
-      <Feature2 />
-      <Feature3 />
-      <Feature4 />
-      <Feature5 />
-      <Feature6 />
-      <Feature7 />
-      <Feature8 />
-      <hr />
-      <Pricing1 />
-      <Pricing2 />
-      <hr />
-      <Stats1 />
-      <Stats2 />
-      <hr />
-      <CTA1 />
-      <CTA2 />
-      <hr />
-      <Blog1 />
-      <Blog2 />
-      <hr />
-      <FAQ1 />
-      <FAQ2 />
-      <hr />
-      <Contact1 />
-      <hr />
-      <Footer1 />
+      <Header />
+      <Hero />
+      <Headers />
+      <Heroes />
+      <Cases />
+      <Testimonials />
+      <Features />
+      <Pricings />
+      <Stats />
+      <CTAs />
+      <Blogs />
+      <FAQs />
+      <Contacts />
+      <Footers />
     </>
   );
 }
