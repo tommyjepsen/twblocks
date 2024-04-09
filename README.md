@@ -10,7 +10,7 @@ It works for both dark- and light mode. You can find installation guide to how t
 
 ## Blocks
 
-Go to /components to find the block you need and simply copy/paste it into your project. Then see which dependencies it has to shadcn-ui, and install them.
+Go to /blocks to find the block you need and simply copy/paste it into your project. Then see which dependencies it has to shadcn-ui, and install them.
 
 Here is a list of available blocks:
 
