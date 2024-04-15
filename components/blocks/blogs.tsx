@@ -32,12 +32,12 @@ export const Blogs = () => (
               </div>
             </div>
           </Link>
-          <Link href="blocks/blogs/blog1" className="hover:opacity-70">
+          <Link href="blocks/blogs/blog2" className="hover:opacity-70">
             <div className="flex flex-col gap-2">
               <div className="bg-muted rounded-md aspect-video p-8 lg:p-20">
                 <Image
-                  src="/blog1.png"
-                  alt="blog1"
+                  src="/blog2.png"
+                  alt="blog2"
                   width={3600}
                   height={1972}
                   layout="responsive"
