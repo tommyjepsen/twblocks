@@ -14,17 +14,21 @@ Go to /blocks to find the block you need and simply copy/paste it into your proj
 
 Here is a list of available blocks:
 
-- [Headers](#headers)
-- [Heros](#heros)
-- [Cases](#cases)
-- [Features](#features)
-- [CTAs](#ctas)
-- [Stats](#stats)
-- [Pricing](#pricing)
-- [FAQs](#faqs)
-- [Blogs](#blogs)
-- [Contacts](#contacts)
-- [Footers](#footers)
+<ul style="display:flex; gap:10px; list-style-type:none; width:100%; margin:auto; justify-content:center;">
+    <li style="font-weight:bold;">Headers</li>
+    <li style="font-weight:bold;">Heros</li>
+    <li style="font-weight:bold;">Cases</li>
+    <li style="font-weight:bold;">Feature</li>
+    <li style="font-weight:bold;">CTAs</li>
+    <li style="font-weight:bold;">Stats</li>
+    <li style="font-weight:bold;">Pricing</li>
+    <li style="font-weight:bold;">FAQs</li>
+    <li style="font-weight:bold;">Blogs</li>
+    <li style="font-weight:bold;">Contacts</li>
+    <li style="font-weight:bold;">Footers</li>
+</ul>
+
+---
 
 | Type      | Version Light                              | Version Dark                                |
 |-----------|--------------------------------------------|--------------------------------------------|
