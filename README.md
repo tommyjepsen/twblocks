@@ -16,7 +16,7 @@ Here is a list of available blocks:
 
 <div align=center style="font-weight:bold;">
   •  Headers
-  •  Heros
+  •  Heroes
   •  Cases
   •  Feature
   •  CTAs
@@ -33,10 +33,10 @@ Here is a list of available blocks:
 | Type      | Version Light                              | Version Dark                                |
 |-----------|--------------------------------------------|--------------------------------------------|
 | **Headers**   | ![Header1](https://github.com/tommyjepsen/twblocks/blob/main/public/header1.png?raw=true) | ![Header1](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-header1.png?raw=true) |
-| **Heros**     | ![Hero1](https://github.com/tommyjepsen/twblocks/blob/main/public/hero1.png?raw=true) | ![Hero1](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-hero1.png?raw=true) |
-| **Heros**     | ![Hero2](https://github.com/tommyjepsen/twblocks/blob/main/public/hero2.png?raw=true) | ![Hero2](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-hero2.png?raw=true) |
-| **Heros**     | ![Hero3](https://github.com/tommyjepsen/twblocks/blob/main/public/hero3.png?raw=true) | ![Hero3](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-hero3.png?raw=true) |
-| **Heros**     | ![Hero4](https://github.com/tommyjepsen/twblocks/blob/main/public/hero4.png?raw=true) | ![Hero4](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-hero4.png?raw=true) |
+| **Heroes**     | ![Hero1](https://github.com/tommyjepsen/twblocks/blob/main/public/hero1.png?raw=true) | ![Hero1](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-hero1.png?raw=true) |
+| **Heroes**     | ![Hero2](https://github.com/tommyjepsen/twblocks/blob/main/public/hero2.png?raw=true) | ![Hero2](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-hero2.png?raw=true) |
+| **Heroes**     | ![Hero3](https://github.com/tommyjepsen/twblocks/blob/main/public/hero3.png?raw=true) | ![Hero3](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-hero3.png?raw=true) |
+| **Heroes**     | ![Hero4](https://github.com/tommyjepsen/twblocks/blob/main/public/hero4.png?raw=true) | ![Hero4](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-hero4.png?raw=true) |
 | **Cases**     | ![Case1](https://github.com/tommyjepsen/twblocks/blob/main/public/case1.png?raw=true) | ![Case1](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-case1.png?raw=true) |
 | **Cases**     | ![Case2](https://github.com/tommyjepsen/twblocks/blob/main/public/case2.png?raw=true) | ![Case2](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-case2.png?raw=true) |
 | **Features**  | ![Feature1](https://github.com/tommyjepsen/twblocks/blob/main/public/feature1.png?raw=true) | ![Feature1](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-feature1.png?raw=true) |
