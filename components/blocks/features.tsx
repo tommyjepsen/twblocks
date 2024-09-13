@@ -137,6 +137,21 @@ export const Features = () => (
               </div>
             </div>
           </Link>
+          <Link href="blocks/features/feature9" className="hover:opacity-70">
+            <div className="flex flex-col h-full">
+              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20 h-full">
+                <Image
+                  src="/feature9.png"
+                  alt="feature9"
+                  width={3600}
+                  height={1972}
+                  layout="responsive"
+                  className="rounded-md"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </Link>
         </div>
       </div>
     </div>

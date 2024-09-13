@@ -1,6 +1,6 @@
 "use client";
 
-import { Feature8 } from "@/blocks/feature/feature8";
+import { Feature9 } from "@/blocks/feature/feature9";
 import { CopyCodeButton } from "@/components/copy-code-button";
 import {
   Breadcrumb,
@@ -18,56 +18,81 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 export default function Block() {
-  const code = `import { Badge } from "@/components/ui/badge";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
+  const code = `import { useState } from "react";
+import Image from "next/image";
+import { Badge } from "@/components/ui/badge";
+import { GripVertical } from "lucide-react";
 
-export const Feature8 = () => (
-  <div className="w-full py-20 lg:py-40">
-    <div className="container mx-auto">
-      <div className="grid grid-cols-1 lg:grid-cols-2 justify-end items-end  gap-10">
-        <div className="flex gap-4 flex-col items-start">
+export const Feature9 = () => {
+  const [inset, setInset] = useState<number>(50);
+  const [onMouseDown, setOnMouseDown] = useState<boolean>(false);
+
+  const onMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (!onMouseDown) return;
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const percentage = (x / rect.width) * 100;
+    setInset(percentage);
+  };
+  
+  return (
+    <div className="w-full py-20 lg:py-40">
+      <div className="container mx-auto">
+        <div className="flex flex-col gap-10">
           <div>
             <Badge>Platform</Badge>
           </div>
           <div className="flex gap-2 flex-col">
-            <h2 className="text-xl md:text-3xl lg:text-5xl tracking-tighter lg:max-w-xl font-regular text-left">
-              This is the start of something new
+            <h2 className="text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular">
+              Something new!
             </h2>
-            <p className="text-lg  max-w-xl lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground  text-left">
-              Managing a small business today is already tough. Avoid further
-              complications by ditching outdated, tedious trade methods. Our
-              goal is to streamline SMB trade, making it easier and faster than
-              ever.
+            <p className="text-lg max-w-xl lg:max-w-xl leading-relaxed tracking-tight text-muted-foreground">
+              Managing a small business today is already tough.
             </p>
           </div>
-        </div>
-        <div className="w-full max-w-full px-6">
-          <Carousel>
-            <CarouselContent>
-              {Array.from({ length: 5 }).map((_, index) => (
-                <CarouselItem key={index}>
-                  <div className="flex rounded-md aspect-video bg-muted items-center justify-center p-6">
-                    <span className="text-sm">
-                      Platform Screenshot {index + 1}
-                    </span>
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
-          </Carousel>
+          <div className="flex gap-10 pt-12 flex-col w-full">
+            <div
+              className="relative aspect-video w-full h-full overflow-hidden rounded-2xl cursor-ew-resize"
+              onMouseMove={onMouseMove}
+              onMouseDown={() => setOnMouseDown(true)}
+              onMouseUp={() => setOnMouseDown(false)}
+            >
+              <div
+                className="bg-muted h-full w-1 absolute z-20 top-0 -ml-1"
+                style={{
+                  left: inset + "%",
+                }}
+              >
+                <div className="bg-muted rounded w-5 h-10 -translate-y-1/2 absolute top-1/2 -ml-2 z-30 cursor-move flex justify-center items-center">
+                  <GripVertical className="h-4 w-4" />
+                </div>
+              </div>
+              <Image
+                src="/feature8.png"
+                alt="feature8"
+                width={1920}
+                height={1080}
+                priority
+                className="absolute left-0 top-0 z-10 w-full h-full aspect-video rounded-2xl select-none border"
+                style={{
+                  clipPath: "inset(0 0 0 "+inset+"%)",
+                }}
+              />
+              <Image
+                src="/darkmode-feature8.png"
+                alt="darkmode-feature8.png"
+                width={1920}
+                height={1080}
+                priority
+                className="absolute left-0 top-0 w-full h-full aspect-video rounded-2xl select-none border"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-);`;
+  );
+};`;
 
   return (
     <div className="min-h-screen w-full flex flex-col">
@@ -88,7 +113,7 @@ export const Feature8 = () => (
               </BreadcrumbItem>
               <BreadcrumbSeparator />
               <BreadcrumbItem>
-                <BreadcrumbPage>Feature8</BreadcrumbPage>
+                <BreadcrumbPage>Feature9</BreadcrumbPage>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
@@ -117,7 +142,7 @@ export const Feature8 = () => (
             </Dialog>
           </div>
           <div className="rounded-md bg-background">
-            <Feature8 />
+            <Feature9 />
           </div>
         </div>
       </div>

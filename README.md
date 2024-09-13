@@ -47,6 +47,7 @@ Here is a list of available blocks:
 | **Features**  | ![Feature6](https://github.com/tommyjepsen/twblocks/blob/main/public/feature6.png?raw=true) | ![Feature6](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-feature6.png?raw=true) |
 | **Features**  | ![Feature7](https://github.com/tommyjepsen/twblocks/blob/main/public/feature7.png?raw=true) | ![Feature7](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-feature7.png?raw=true) |
 | **Features**  | ![Feature8](https://github.com/tommyjepsen/twblocks/blob/main/public/feature8.png?raw=true) | ![Feature8](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-feature8.png?raw=true) |
+| **Features**  | ![Feature9](https://github.com/tommyjepsen/twblocks/blob/main/public/feature9.png?raw=true) | ![Feature8](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-feature9.png?raw=true) |
 | **CTAs**      | ![CTA1](https://github.com/tommyjepsen/twblocks/blob/main/public/cta1.png?raw=true) | ![CTA1](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-cta1.png?raw=true) |
 | **CTAs**      | ![CTA2](https://github.com/tommyjepsen/twblocks/blob/main/public/cta2.png?raw=true) | ![CTA2](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-cta2.png?raw=true) |
 | **Stats**     | ![Stats1](https://github.com/tommyjepsen/twblocks/blob/main/public/stats1.png?raw=true) | ![Stats1](https://github.com/tommyjepsen/twblocks/blob/main/public/darkmode-stats1.png?raw=true) |
