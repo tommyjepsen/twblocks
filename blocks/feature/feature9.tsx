@@ -43,8 +43,8 @@ export const Feature9 = () => {
                   left: inset + "%",
                 }}
               >
-                <div className="bg-muted rounded w-5 h-10 -translate-y-1/2 absolute top-1/2 -ml-2 z-30 cursor-move flex justify-center items-center">
-                  <GripVertical className="h-4 w-4" />
+                <div className="bg-muted rounded w-5 h-10 select-none -translate-y-1/2 absolute top-1/2 -ml-2 z-30 cursor-ew-resize flex justify-center items-center">
+                  <GripVertical className="h-4 w-4 select-none" />
                 </div>
               </div>
               <Image
