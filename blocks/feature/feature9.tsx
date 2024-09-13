@@ -7,7 +7,7 @@ export const Feature9 = () => {
   const [inset, setInset] = useState<number>(50);
   const [onMouseDown, setOnMouseDown] = useState<boolean>(false);
 
-  const onMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+  const onMouseMove = (e: React.MouseEvent) => {
     if (!onMouseDown) return;
     const rect = e.currentTarget.getBoundingClientRect();
     const x = e.clientX - rect.left;
@@ -30,22 +30,28 @@ export const Feature9 = () => {
               Managing a small business today is already tough.
             </p>
           </div>
-          <div className="flex gap-10 pt-12 flex-col w-full">
+          <div className="pt-12 w-full">
             <div
-              className="relative aspect-video w-full h-full overflow-hidden rounded-2xl cursor-ew-resize"
+              className="relative aspect-video w-full h-full overflow-hidden rounded-2xl select-none"
               onMouseMove={onMouseMove}
-              onMouseDown={() => setOnMouseDown(true)}
               onMouseUp={() => setOnMouseDown(false)}
             >
               <div
-                className="bg-muted h-full w-1 absolute z-20 top-0 -ml-1"
+                className="bg-muted h-full w-1 absolute z-20 top-0 -ml-1 select-none"
                 style={{
                   left: inset + "%",
                 }}
               >
-                <div className="bg-muted rounded w-5 h-10 select-none -translate-y-1/2 absolute top-1/2 -ml-2 z-30 cursor-ew-resize flex justify-center items-center">
+                <button
+                  className="bg-muted rounded hover:scale-110 transition-all w-5 h-10 select-none -translate-y-1/2 absolute top-1/2 -ml-2 z-30 cursor-ew-resize flex justify-center items-center"
+                  onMouseDown={(e) => {
+                    setOnMouseDown(true);
+                    onMouseMove(e);
+                  }}
+                  onMouseUp={() => setOnMouseDown(false)}
+                >
                   <GripVertical className="h-4 w-4 select-none" />
-                </div>
+                </button>
               </div>
               <Image
                 src="/feature8.png"
