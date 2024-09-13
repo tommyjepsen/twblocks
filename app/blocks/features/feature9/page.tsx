@@ -34,11 +34,11 @@ export const Feature9 = () => {
     const percentage = (x / rect.width) * 100;
     setInset(percentage);
   };
-  
+
   return (
     <div className="w-full py-20 lg:py-40">
       <div className="container mx-auto">
-        <div className="flex flex-col gap-10">
+        <div className="flex flex-col gap-4">
           <div>
             <Badge>Platform</Badge>
           </div>
@@ -75,7 +75,7 @@ export const Feature9 = () => {
                 priority
                 className="absolute left-0 top-0 z-10 w-full h-full aspect-video rounded-2xl select-none border"
                 style={{
-                  clipPath: "inset(0 0 0 "+inset+"%)",
+                  clipPath: "inset(0 0 0 " + inset + "%)",
                 }}
               />
               <Image
