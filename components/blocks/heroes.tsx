@@ -79,7 +79,10 @@ export const Heroes = () => (
           </Link>
           <Link href="blocks/heroes/hero5" className="hover:opacity-70">
             <div className="flex flex-col gap-2">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20">
+              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20 relative">
+                <Badge className="absolute top-4 left-4">
+                  Animated using Framer Motion
+                </Badge>
                 <Image
                   src="/hero5.png"
                   alt="Hero 5"
