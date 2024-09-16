@@ -18,7 +18,7 @@ export const Feature9 = () => {
     } else if ("clientX" in e) {
       x = e.clientX - rect.left;
     }
-    
+
     const percentage = (x / rect.width) * 100;
     setInset(percentage);
   };

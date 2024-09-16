@@ -77,6 +77,21 @@ export const Heroes = () => (
               </div>
             </div>
           </Link>
+          <Link href="blocks/heroes/hero5" className="hover:opacity-70">
+            <div className="flex flex-col gap-2">
+              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20">
+                <Image
+                  src="/hero5.png"
+                  alt="Hero 5"
+                  width={3600}
+                  height={1972}
+                  layout="responsive"
+                  className="rounded-md"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </Link>
         </div>
       </div>
     </div>
