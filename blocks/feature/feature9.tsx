@@ -24,7 +24,7 @@ export const Feature9 = () => {
   };
 
   return (
-    <div className="w-full py-20 lg:py-40">
+    (<div className="w-full py-20 lg:py-40">
       <div className="container mx-auto">
         <div className="flex flex-col gap-4">
           <div>
@@ -77,8 +77,9 @@ export const Feature9 = () => {
                 className="absolute left-0 top-0 z-10 w-full h-full aspect-video rounded-2xl select-none border"
                 style={{
                   clipPath: "inset(0 0 0 " + inset + "%)",
-                }}
-              />
+                  maxWidth: "100%",
+                  height: "auto"
+                }} />
               <Image
                 src="/darkmode-feature8.png"
                 alt="darkmode-feature8.png"
@@ -86,11 +87,14 @@ export const Feature9 = () => {
                 height={1080}
                 priority
                 className="absolute left-0 top-0 w-full h-full aspect-video rounded-2xl select-none border"
-              />
+                style={{
+                  maxWidth: "100%",
+                  height: "auto"
+                }} />
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div>)
   );
 };

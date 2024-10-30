@@ -25,10 +25,13 @@ export const Pricings = () => (
                   alt="pricing1"
                   width={3600}
                   height={1972}
-                  layout="responsive"
                   className="rounded-md"
                   loading="lazy"
-                />
+                  sizes="100vw"
+                  style={{
+                    width: "100%",
+                    height: "auto"
+                  }} />
               </div>
             </div>
           </Link>
@@ -40,10 +43,13 @@ export const Pricings = () => (
                   alt="pricing2"
                   width={3600}
                   height={1972}
-                  layout="responsive"
                   className="rounded-md"
                   loading="lazy"
-                />
+                  sizes="100vw"
+                  style={{
+                    width: "100%",
+                    height: "auto"
+                  }} />
               </div>
             </div>
           </Link>
