@@ -19,7 +19,7 @@ export const Heroes = () => (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <Link href="blocks/heroes/hero1" className="hover:opacity-70">
             <div className="flex flex-col gap-2">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20">
+              <div className="bg-muted rounded-md p-8 lg:p-20">
                 <Image
                   src="/hero1.png"
                   alt="Hero 1"
@@ -34,7 +34,7 @@ export const Heroes = () => (
           </Link>
           <Link href="blocks/heroes/hero2" className="hover:opacity-70">
             <div className="flex flex-col gap-2">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20">
+              <div className="bg-muted rounded-md p-8 lg:p-20">
                 <Image
                   src="/hero2.png"
                   alt="Hero 2"
@@ -49,7 +49,7 @@ export const Heroes = () => (
           </Link>
           <Link href="blocks/heroes/hero3" className="hover:opacity-70">
             <div className="flex flex-col gap-2">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20">
+              <div className="bg-muted rounded-md p-8 lg:p-20">
                 <Image
                   src="/hero3.png"
                   alt="Hero 3"
@@ -64,7 +64,7 @@ export const Heroes = () => (
           </Link>{" "}
           <Link href="blocks/heroes/hero4" className="hover:opacity-70">
             <div className="flex flex-col gap-2">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20">
+              <div className="bg-muted rounded-md p-8 lg:p-20">
                 <Image
                   src="/hero4.png"
                   alt="Hero 4"
@@ -79,7 +79,7 @@ export const Heroes = () => (
           </Link>
           <Link href="blocks/heroes/hero5" className="hover:opacity-70">
             <div className="flex flex-col gap-2">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20 relative">
+              <div className="bg-muted rounded-md p-8 lg:p-20 relative">
                 <Badge className="absolute top-4 left-4">
                   Animated using Framer Motion
                 </Badge>

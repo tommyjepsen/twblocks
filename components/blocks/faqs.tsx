@@ -20,7 +20,7 @@ export const FAQs = () => (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <Link href="blocks/faqs/faq1" className="hover:opacity-70">
             <div className="flex flex-col h-full">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20 h-full">
+              <div className="bg-muted rounded-md p-8 lg:p-20 h-full">
                 <Image
                   src="/faq1.png"
                   alt="faq1"
@@ -35,7 +35,7 @@ export const FAQs = () => (
           </Link>
           <Link href="blocks/faqs/faq2" className="hover:opacity-70">
             <div className="flex flex-col h-full">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20 h-full">
+              <div className="bg-muted rounded-md p-8 lg:p-20 h-full">
                 <Image
                   src="/faq2.png"
                   alt="faq2"

@@ -19,7 +19,7 @@ export const Pricings = () => (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <Link href="blocks/pricings/pricing1" className="hover:opacity-70">
             <div className="flex flex-col h-full">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20 h-full">
+              <div className="bg-muted rounded-md p-8 lg:p-20 h-full">
                 <Image
                   src="/pricing1.png"
                   alt="pricing1"
@@ -34,7 +34,7 @@ export const Pricings = () => (
           </Link>
           <Link href="blocks/pricings/pricing2" className="hover:opacity-70">
             <div className="flex flex-col h-full">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20 h-full">
+              <div className="bg-muted rounded-md p-8 lg:p-20 h-full">
                 <Image
                   src="/pricing2.png"
                   alt="pricing2"

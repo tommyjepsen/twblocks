@@ -18,7 +18,7 @@ export const CTAs = () => (
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <Link href="blocks/ctas/cta1" className="hover:opacity-70">
-            <div className="bg-muted rounded-md aspect-video p-8 lg:p-20">
+            <div className="bg-muted rounded-md p-8 lg:p-20">
               <Image
                 src="/cta1.png"
                 alt="cta1"
@@ -31,7 +31,7 @@ export const CTAs = () => (
             </div>
           </Link>
           <Link href="blocks/ctas/cta2" className="hover:opacity-70">
-            <div className="bg-muted rounded-md aspect-video p-8 lg:p-20">
+            <div className="bg-muted rounded-md p-8 lg:p-20">
               <Image
                 src="/cta2.png"
                 alt="cta2"

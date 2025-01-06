@@ -19,7 +19,7 @@ export const Features = () => (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <Link href="blocks/features/feature1" className="hover:opacity-70">
             <div className="flex flex-col h-full">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20 h-full">
+              <div className="bg-muted rounded-md p-8 lg:p-20 h-full">
                 <Image
                   src="/feature1.png"
                   alt="feature1"
@@ -34,7 +34,7 @@ export const Features = () => (
           </Link>
           <Link href="blocks/features/feature2" className="hover:opacity-70">
             <div className="flex flex-col h-full">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20 h-full">
+              <div className="bg-muted rounded-md p-8 lg:p-20 h-full">
                 <Image
                   src="/feature2.png"
                   alt="feature2"
@@ -49,7 +49,7 @@ export const Features = () => (
           </Link>
           <Link href="blocks/features/feature3" className="hover:opacity-70">
             <div className="flex flex-col h-full">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20 h-full">
+              <div className="bg-muted rounded-md p-8 lg:p-20 h-full">
                 <Image
                   src="/feature3.png"
                   alt="feature3"
@@ -64,7 +64,7 @@ export const Features = () => (
           </Link>
           <Link href="blocks/features/feature4" className="hover:opacity-70">
             <div className="flex flex-col h-full">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20 h-full">
+              <div className="bg-muted rounded-md p-8 lg:p-20 h-full">
                 <Image
                   src="/feature4.png"
                   alt="feature4"
@@ -79,7 +79,7 @@ export const Features = () => (
           </Link>
           <Link href="blocks/features/feature5" className="hover:opacity-70">
             <div className="flex flex-col h-full">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20 h-full">
+              <div className="bg-muted rounded-md p-8 lg:p-20 h-full">
                 <Image
                   src="/feature5.png"
                   alt="feature5"
@@ -94,7 +94,7 @@ export const Features = () => (
           </Link>
           <Link href="blocks/features/feature6" className="hover:opacity-70">
             <div className="flex flex-col h-full">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20 h-full">
+              <div className="bg-muted rounded-md p-8 lg:p-20 h-full">
                 <Image
                   src="/feature6.png"
                   alt="feature6"
@@ -109,7 +109,7 @@ export const Features = () => (
           </Link>
           <Link href="blocks/features/feature7" className="hover:opacity-70">
             <div className="flex flex-col h-full">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20 h-full">
+              <div className="bg-muted rounded-md p-8 lg:p-20 h-full">
                 <Image
                   src="/feature7.png"
                   alt="feature7"
@@ -124,7 +124,7 @@ export const Features = () => (
           </Link>
           <Link href="blocks/features/feature8" className="hover:opacity-70">
             <div className="flex flex-col h-full">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20 h-full">
+              <div className="bg-muted rounded-md p-8 lg:p-20 h-full">
                 <Image
                   src="/feature8.png"
                   alt="feature8"
@@ -139,7 +139,7 @@ export const Features = () => (
           </Link>
           <Link href="blocks/features/feature9" className="hover:opacity-70">
             <div className="flex flex-col h-full">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20 h-full">
+              <div className="bg-muted rounded-md p-8 lg:p-20 h-full">
                 <Image
                   src="/feature9.png"
                   alt="feature9"

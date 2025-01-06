@@ -22,7 +22,7 @@ export const Testimonials = () => (
             className="hover:opacity-70"
           >
             <div className="flex flex-col gap-2">
-              <div className="bg-muted rounded-md aspect-video p-8 lg:p-20">
+              <div className="bg-muted rounded-md p-8 lg:p-20">
                 <Image
                   src="/testimonials1.png"
                   alt="testimonials1"                 
