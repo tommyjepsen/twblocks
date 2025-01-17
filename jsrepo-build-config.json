@@ -10,6 +10,6 @@
 	"includeBlocks": [],
 	"includeCategories": [],
 	"excludeBlocks": [],
-	"excludeCategories": ["node_modules", ".git", ".next", "public", "app", "components", "blocks"],
+	"excludeCategories": ["public", "app", "components", "blocks"],
 	"preview": true
 }

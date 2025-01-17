@@ -10,7 +10,7 @@
 /coverage
 
 # next.js
-/.next/
+.next
 /out/
 public/jsrepo-manifest.json
 public/lib
