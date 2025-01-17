@@ -12,6 +12,10 @@
 # next.js
 /.next/
 /out/
+public/jsrepo-manifest.json
+public/lib
+public/blocks
+public/components
 
 # production
 /build
