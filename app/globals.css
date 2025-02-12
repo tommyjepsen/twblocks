@@ -26,6 +26,7 @@
     --radius: 0.5rem;
   }
 
+
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
@@ -56,4 +57,19 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translate(-100%, -100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.5s ease forwards;
 }
